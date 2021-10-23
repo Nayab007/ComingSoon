@@ -31,6 +31,7 @@
 
 .wrapper {
   width: 100%;
+  margin: 0 auto;
  
 }
 
@@ -39,34 +40,32 @@
   padding: 50px 30px 20px;
   font-family: 'Glamore Regular';
   font-size: 20px;
-  color: #111;
+  color: #fffce4;
   line-height: 44px;
 }
 
 
 .h2 {
   position: relative;
-  background-image: linear-gradient(90deg, rgb(41, 250, 4), rgb(152, 243, 167));
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-
+  color: #fffce4;
+  text-align: center;
   width: 100%;
   padding: 40px 30px 20px;
   font-family: 'Glamore Regular';
-  font-size: 40px;
-  line-height: 44px;
+  font-size: 35px;
+  line-height: 40px;
 }
 
 .p {
   position: relative;
-  width: 80%;
+  width: 100%;
   padding: 25px 18px 10px;
-  font-family: 'GeosansLight Medium Italic';
-  font-weight: bold;
-  font-size: 20px;
-  color: #ffffff;
-  line-height: 40px;
+  font-family: 'Glamore Regular';
+ 
+  text-align: center;
+  font-size: 12px;
+  color: #fffce4;
+  line-height: 30px;
  
 }
 
@@ -74,11 +73,12 @@
   position: relative;
   width: 80%;
   padding: 45px 18px 10px;
-  font-family: 'GeosansLight Medium Italic';
-  font-size: 25px;
-  color: #fff;
-  line-height: 34px;
-  z-index: 10;
+  font-family: 'Glamore Regular';
+  font-size: 14px;
+  text-align: center;
+  color: #fffce4;
+  line-height: 32px;
+ 
 ;
 }
 .home video {
@@ -88,6 +88,7 @@
   width: 100%; 
   height: 100%;
   object-fit: cover;
+  
 }
 
 
@@ -104,25 +105,27 @@
     width: 100%;
     padding: 50px 50px 20px;
     font-family: 'Glamore Regular';
+    text-align: center;
     font-size: 40px;
-    color: #111;
+    color: #fffce4;
     line-height: 44px;
   }
 
   .p {
     width: 80%;
     padding: 25px 18px 10px;
-    font-family: 'GeosansLight Medium Italic';
+    font-family: 'Glamore Regular';
+    text-align: center;
     font-weight: bold;
     font-size: 30px;
-    color: #ffffff;
+    color: #fffce4;
     line-height: 40px;
   }
 
   .Email {
     width: 80%;
     padding-bottom: 40px 0px 0px;
-    font-family: 'GeosansLight Medium Italic';
+    font-family: 'Glamore Regular';
     line-height: 52px;
   }
 }
@@ -134,16 +137,56 @@
 
   .info {
     width: 80%;
-    float: left;
+    
   }
 
   .h2 {
-    padding: 40px 40px 20px 30px;
+    margin-top: 12px;
+   font-size: 55px;
+   margin: 0;
+   position: absolute;
+   top: 20%;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, -50%)
+  }
+
+  .h3 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
   }
 
   .p {
-    padding: 35px 18px 10px 30px;
-    color: #ffffff;
+    color: #fffce4;
+    font-size: 28px;
+    margin: 0;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+
+  .Email {
+    font-size: 18px;
+    font-family: 'GeosansLight Medium Italic';
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #fffce4;
+    border-radius: 20px;
+    box-sizing: border-box;
+   width: 800px;
+    height: 70px;
+    padding: 7px;  
+  
   }
 
 }
