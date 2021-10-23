@@ -44,43 +44,68 @@
   line-height: 44px;
 }
 
-
 .h2 {
-  position: relative;
-  color: #fffce4;
-  text-align: center;
+  margin-top: 12px;
+ font-size: 40px;
+ margin: 0;
+ position: absolute;
+ top: 20%;
+ left: 50%;
+ margin-right: -50%;
+ transform: translate(-50%, -50%)
+}
+.h3 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  font-size: 40px;
+  transform: translate(-50%, -50%)
+}
+
+.info {
   width: 100%;
-  padding: 40px 30px 20px;
+  padding: 50px 50px 20px;
   font-family: 'Glamore Regular';
-  font-size: 35px;
-  line-height: 40px;
+  text-align: center;
+  font-size: 40px;
+  color: #fffce4;
+  line-height: 44px;
 }
 
 .p {
-  position: relative;
-  width: 100%;
-  padding: 25px 18px 10px;
-  font-family: 'Glamore Regular';
- 
-  text-align: center;
-  font-size: 12px;
   color: #fffce4;
-  line-height: 30px;
- 
+  font-size: 18px;
+  width: 340px;
+  margin: 0;
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
 }
 
 .Email {
-  position: relative;
-  width: 80%;
-  padding: 45px 18px 10px;
-  font-family: 'Glamore Regular';
-  font-size: 14px;
-  text-align: center;
+  font-size: 18px;
   color: #fffce4;
-  line-height: 32px;
- 
-;
+  font-family: 'GeosansLight Medium Italic';
+  margin: 0;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #fffce4;
+  border-radius: 25px;
+  box-sizing: border-box;
+  width: 300px;
+  height: 170px;
+  padding: 10px;  
+
 }
+
+
 .home video {
   position: absolute;
   top: 0;
@@ -100,6 +125,24 @@
     width: 600px;
     margin: 0 auto;
   }
+  .h2 {
+    margin-top: 12px;
+   font-size: 55px;
+   margin: 0;
+   position: absolute;
+   top: 20%;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, -50%)
+  }
+  .h3 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
 
   .info {
     width: 100%;
@@ -112,21 +155,33 @@
   }
 
   .p {
-    width: 80%;
-    padding: 25px 18px 10px;
-    font-family: 'Glamore Regular';
-    text-align: center;
-    font-weight: bold;
-    font-size: 30px;
     color: #fffce4;
-    line-height: 40px;
+    font-size: 22px;
+    width: 850px;
+    margin: 0;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
   }
 
   .Email {
-    width: 80%;
-    padding-bottom: 40px 0px 0px;
-    font-family: 'Glamore Regular';
-    line-height: 52px;
+    font-size: 16px;
+    font-family: 'GeosansLight Medium Italic';
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #fffce4;
+    border-radius: 20px;
+    box-sizing: border-box;
+   width: 700px;
+    height: 70px;
+    padding: 10px;  
+  
   }
 }
 
