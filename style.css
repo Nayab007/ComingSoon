@@ -49,7 +49,7 @@
 
 .h2 {
   margin-top: 12px;
- font-size: 40px;
+ font-size: 30px;
  margin: 0;
  position: absolute;
  top: 20%;
@@ -130,15 +130,18 @@
   }
 
   .h2 {
-  margin-top: 5px;
-   font-size: 45px;
-   margin: 0;
-   position: absolute;
-   top: 20%;
-   left: 50%;
-   margin-right: -50%;
-   transform: translate(-50%, -50%)
-  }
+    
+    color: #fffce4;
+     margin-top: 12px;
+     margin: 0;
+     position: absolute;
+     top: 20%;
+     left: 50%;
+     width: 236px;
+     height: 42px;
+      margin-right: -50%;
+     transform: translate(-50%, -50%)
+    }
 
   .h3 {
     margin: 0;
@@ -216,10 +219,10 @@
   .h3 {
     margin: 0;
     position: relative;
-    top: 50vh;
+    top: 46vh;
     left: 50%;
     margin-left: 2%;
-    
+    font-size: 4rem;
     transform: translate(-50%, -50%);
     
   }
@@ -241,7 +244,7 @@
     width: 850px;
     margin: 0;
     position: absolute;
-    top: 42%;
+    top: 36%;
     left: 52%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
@@ -302,7 +305,7 @@
    margin: 0;
    position: absolute;
    top: 20%;
-   left: 50%;
+   left: 48%;
    width: 550px;
    height: 75px;
    
@@ -316,7 +319,7 @@
     margin: 0;
     position: absolute;
     top: 55%;
-    left: 50%;
+    left: 48%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
   }
@@ -327,7 +330,7 @@
     margin: 0;
     position: absolute;
     top: 36%;
-    left: 50%;
+    left: 48%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
   }
@@ -338,13 +341,13 @@
     margin: 0;
     position: absolute;
     top: 80%;
-    left: 50%;
+    left: 48%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     border: 2px solid #fffce4;
     border-radius: 20px;
     box-sizing: border-box;
-   width: 800px;
+    width: 800px;
     height: 70px;
     padding: 7px;  
   
