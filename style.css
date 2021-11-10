@@ -119,6 +119,16 @@
   
 }
 
+.demo {
+  position: relative;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 85%;
+  color:#fffce4
+  
+}
+
+
 @media only screen and (min-width: 280px){
   .wrapper {
     width: 100px;
@@ -192,8 +202,72 @@
     object-fit: cover;
     
   }
+
+  .demo {
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 115%;
+    color:#fffce4
+    
+  }
 }
 
+@media only screen and (min-width: 320px){
+  .demo {
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 80%;
+    color:#fffce4
+    
+  }
+}
+
+@media only screen and (min-width: 375px){
+  .demo {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 85%;
+    color:#fffce4
+    
+  }
+}
+
+@media only screen and (min-width: 411px){
+  .demo {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 95%;
+    color:#fffce4
+    
+  }
+}
+
+@media only screen and (min-width: 414px){
+  .demo {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 95%;
+    color:#fffce4
+    
+  }
+}
+
+
+@media only screen and (min-width: 540px){
+  .demo {
+    position: relative;
+    text-align: center;
+    font-size: 38px;
+    margin-top: 64%;
+    color:#fffce4
+    
+  }
+}
 
 
 @media only screen and (min-width: 768px) {
@@ -275,6 +349,14 @@
     width: 120%; 
     height: 110%;
     object-fit: cover;
+    
+  }
+  .demo {
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 62%;
+    color:#fffce4
     
   }
 }
@@ -361,5 +443,38 @@
     object-fit: cover;
     
   }
+  .demo {
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30%;
+    color:#fffce4
+    
+  }
 
+}
+
+
+@media only screen and (min-width: 1280px) {
+  .demo {
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 34%;
+    color:#fffce4
+    
+  }
+
+
+}
+
+@media only screen and (min-width: 1380px) {
+  .demo {
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 28%;
+    color:#fffce4
+    
+  }
 }
