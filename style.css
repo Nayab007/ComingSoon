@@ -43,7 +43,7 @@
   padding: 50px 30px 20px;
   font-family: 'Glamore Regular';
   font-size: 20px;
-  color: #fffce4;
+  color: #FCECD7;
   line-height: 44px;
 }
 
@@ -78,7 +78,7 @@
 }
 
 .p {
-  color: #fffce4;
+  color: #FCECD7;
   font-size: 18px;
   width: 340px;
   margin: 0;
@@ -91,7 +91,7 @@
 
 .Email {
   font-size: 18px;
-  color: #fffce4;
+  color: #FCECD7;
   font-family: 'GeosansLight Medium Italic';
   margin: 0;
   position: absolute;
@@ -99,7 +99,7 @@
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  border: 2px solid #fffce4;
+  border: 2px solid #FCECD7;
   border-radius: 25px;
   box-sizing: border-box;
   width: 300px;
@@ -124,7 +124,7 @@
   text-align: center;
   font-size: 50px;
   margin-top: 85%;
-  color:#fffce4
+  color:#FCECD7
   
 }
 
@@ -141,7 +141,7 @@
 
   .h2 {
     
-    color: #fffce4;
+    color: #FCECD7;
      margin-top: 12px;
      margin: 0;
      position: absolute;
@@ -164,7 +164,7 @@
   }
 
   .p {
-    color: #fffce4;
+    color: #FCECD7;
     font-size: 14px;
     margin: 0;
     position: absolute;
@@ -183,7 +183,7 @@
     left: 51%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    border: 2px solid #fffce4;
+    border: 2px solid #FCECD7;
     border-radius: 20px;
     box-sizing: border-box;
     width: 260px;
@@ -208,7 +208,7 @@
     text-align: center;
     font-size: 25px;
     margin-top: 115%;
-    color:#fffce4
+    color:#FCECD7
     
   }
 }
@@ -219,7 +219,7 @@
     text-align: center;
     font-size: 30px;
     margin-top: 80%;
-    color:#fffce4
+    color:#FCECD7
     
   }
 }
@@ -230,7 +230,7 @@
     text-align: center;
     font-size: 22px;
     margin-top: 50vh;
-    color:#fffce4
+    color:#FCECD7
     
   }
 }
@@ -241,7 +241,7 @@
     text-align: center;
     font-size: 40px;
     margin-top: 95%;
-    color:#fffce4
+    color:#FCECD7
     
   }
 }
@@ -252,7 +252,7 @@
     text-align: center;
     font-size: 40px;
     margin-top: 95%;
-    color:#fffce4
+    color:#FCECD7
     
   }
 }
@@ -264,7 +264,7 @@
     text-align: center;
     font-size: 38px;
     margin-top: 64%;
-    color:#fffce4
+    color:#FCECD7
     
   }
 }
@@ -278,7 +278,7 @@
 
   .h2 {
     font-size: 5rem;
-    color: #fffce4;
+    color: #FCECD7;
     margin-top: 12px;
      margin: 0;
      position: absolute;
@@ -307,13 +307,13 @@
     font-family: 'Glamore Regular';
     text-align: center;
     font-size: 42px;
-    color: #fffce4;
+    color: #FCECD7;
     line-height: 40px;
     
   }
 
   .p {
-    color: #fffce4;
+    color: #FCECD7;
     font-size: 22px;
     width: 850px;
     margin: 0;
@@ -333,7 +333,7 @@
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    border: 2px solid #fffce4;
+    border: 2px solid #FCECD7;
     border-radius: 20px;
     box-sizing: border-box;
     width: 700px;
@@ -382,7 +382,7 @@
 
   .h2 {
   font-size: 5rem;
-  color: #fffce4;
+  color: #FCECD7;
   margin-top: 12px;
    margin: 0;
    position: absolute;
@@ -397,7 +397,7 @@
 
   .h3 {
     font-size: 5rem;
-    color: #fffce4;
+    color: #FCECD7;
     margin: 0;
     position: absolute;
     top: 55%;
@@ -407,7 +407,7 @@
   }
 
   .p {
-    color: #fffce4;
+    color: #FCECD7;
     font-size: 28px;
     margin: 0;
     position: absolute;
@@ -426,7 +426,7 @@
     left: 48%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    border: 2px solid #fffce4;
+    border: 2px solid #FCECD7;
     border-radius: 20px;
     box-sizing: border-box;
     width: 800px;
@@ -448,9 +448,70 @@
     text-align: center;
     font-size: 50px;
     margin-top: 30%;
-    color:#fffce4
+    color:#FCECD7
     
   }
+
+  .container{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h1{
+    font-size: 40px;
+    color: #FCECD7;
+    margin-bottom: 20px;
+}
+
+.container .email{
+    height: 50px;
+    position: relative;
+}
+
+.container .email input{
+    height: 100%;
+    width: 450px;
+    padding-left: 50px;
+    font-size: 18px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50px;
+    border: 2px solid rgb(137, 226, 134);
+}
+
+.container .email .icon{
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+
+.container .email button{
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    transform: translate(-50%, -50%);
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 1px solid gray;
+    outline: none;
+    background: #67d663;
+    color: #FCECD7;
+    transition: 0.3s;
+}
+
+.container .email button:hover{
+    background: #1b3d94;
+}
 
 }
 
@@ -461,7 +522,7 @@
     text-align: center;
     font-size: 50px;
     margin-top: 34%;
-    color:#fffce4
+    color:#FCECD7
     
   }
 
@@ -474,7 +535,7 @@
     text-align: center;
     font-size: 50px;
     margin-top: 28%;
-    color:#fffce4
+    color:#FCECD7
     
   }
 }
